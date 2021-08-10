@@ -92,7 +92,7 @@ input, select, textarea {
 		font-weight: 30px;
 		font-size: 17pt;
 		line-height: 1.75em;
-		color: #888;
+		color: #ffffff;
 		-webkit-text-stroke: 0.1px;
 	}
 
@@ -1556,7 +1556,7 @@ input, select, textarea {
 		}
 
 		.image.featured {
-			display: block;
+			display:initial;
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
@@ -1564,6 +1564,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+			margin:0;
 		}
 
 		.image.left {
@@ -1572,7 +1573,7 @@ input, select, textarea {
 		}
 
 		.image.centered {
-			display: block;
+			display:inline-block;
 			margin: 0 0 2em 0;
 		}
 
@@ -1821,7 +1822,7 @@ input, select, textarea {
 		appearance: none;
 		display: block;
 		box-shadow: inset 0 0 0 1px #e6e6e6;
-		background: #f8f8f8;
+		background: #ffffff;
 		width: 100%;
 		padding: 0.85em 1em 0.85em 1em;
 		border-radius: 0.25em;
@@ -1836,7 +1837,7 @@ input, select, textarea {
 		form textarea:focus {
 			outline: 0;
 			box-shadow: inset 0 0 0 1px #afd9e0;
-			background: #fcfcfc;
+			background: #ffffff;
 		}
 
 	form input[type="text"],
